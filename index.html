@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <picture>
+                <source media="(max-width:400px)" srcset="./images/blogimage.png" />
+                <img class="content__image" src="./images/blogimage@2x.png" alt="Description of the image" />
+            </picture>
+
+
+            <div class="content__body">
+                <div class="content__type">
+                    <p class="content__type__text">Learning</p>
+                </div>
+                <p class="content__date">
+                    <time datetime="2023-12-21">Published 21 Dec 2023</time>
+                </p>
+                <h2 class="content__title">
+                    <a class="content__link" href="#">HTML & CSS foundations</a>
+                </h2>
+                <p class="content__description">
+                    These languages are the backbone of every website, defining structure, content, and presentation.
+                </p>
+                <div class="content__user">
+                    <img class="content__user__avatar" src="./images/user-img.png" width="40" alt="" />
+                    <span class="content__username">Greg Hooper</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
